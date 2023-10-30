@@ -18,14 +18,6 @@ function App() {
       color: 'red',
       id: '2323',
     });
-
-    PushNotification.localNotificationSchedule({
-      channelId: 'test-channel',
-      title: 'Alarm',
-      message: 'You clicked on ' + ' 20 seconds ago',
-      date: new Date(Date.now() + 20 * 1000),
-      allowWhileIdle: true,
-    });
   };
   return (
     <SafeAreaView>
