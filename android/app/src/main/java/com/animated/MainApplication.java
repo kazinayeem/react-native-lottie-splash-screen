@@ -1,4 +1,5 @@
 package com.animated;
+import com.oblador.vectoricons.VectorIconsPackage;
 import org.devio.rn.splashscreen.SplashScreenReactPackage;
 import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;  // <--- Import Package
 import android.app.Application;
@@ -26,6 +27,7 @@ public class MainApplication extends Application implements ReactApplication {
           List<ReactPackage> packages = new PackageList(this).getPackages();
           new SplashScreenReactPackage();
           new ReactNativePushNotificationPackage();
+          new VectorIconsPackage();
           return packages;
         }
 

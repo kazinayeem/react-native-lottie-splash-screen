@@ -1,6 +1,7 @@
 apply plugin: "com.android.application"
 apply plugin: "com.facebook.react"
 apply plugin: 'com.google.gms.google-services'
+apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")
 /**
  * This is the configuration block to customize your React Native Android app.
  * By default you don't need to apply any configuration, just uncomment the lines you need.
@@ -75,6 +76,7 @@ android {
 
     namespace "com.animated"
     defaultConfig {
+        vectorDrawables.useSupportLibrary = true
         applicationId "com.animated"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
@@ -104,6 +106,7 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-vector-icons')
     implementation project(':react-native-push-notification')
     implementation("com.facebook.react:react-android")
     implementation project(':react-native-lottie-splash-screen')
