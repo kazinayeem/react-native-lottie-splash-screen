@@ -20,6 +20,7 @@
     "react-native": "0.72.6",
     "react-native-device-info": "^10.11.0",
     "react-native-gesture-handler": "^2.13.4",
+    "react-native-google-mobile-ads": "^12.3.0",
     "react-native-image-crop-picker": "^0.40.1",
     "react-native-lottie-splash-screen": "^1.1.2",
     "react-native-paper": "^5.11.1",

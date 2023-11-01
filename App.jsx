@@ -8,7 +8,8 @@ import BottomTab from './src/Tab';
 
 function App() {
   useEffect(() => {
-    LottieSplashScreen.hide(); // here
+    LottieSplashScreen.hide();
+
   }, []);
 
   return (
