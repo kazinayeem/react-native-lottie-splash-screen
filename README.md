@@ -6,7 +6,7 @@
 
 # npm or yarn
 
-   npm install
+      npm install
 
 # run project
 
